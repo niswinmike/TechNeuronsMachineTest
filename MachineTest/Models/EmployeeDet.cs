@@ -16,7 +16,7 @@ namespace MachineTest.Models
         public string Name { get; set; }
         [Required(ErrorMessage = "Department is required")]
         [Display(Name = "Department Name")]
-        [StringLength(50)]
+        [StringLength(50)] 
         public string Department { get; set; }
     }
 }

@@ -16,7 +16,7 @@ namespace MachineTest.Models
         public string TaskName { get; set; }
         [Required(ErrorMessage = "Description is required")]
         [Display(Name = "Description")]
-        [StringLength(150)]
+        [StringLength(150)] 
         public string Description { get; set; }
     }
 }

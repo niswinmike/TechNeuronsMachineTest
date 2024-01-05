@@ -15,7 +15,7 @@ namespace MachineTest.Controllers
         
         public ActionResult Index()
         {
-            var EmployeeList = this.db.Employees.ToList();
+            var EmployeeList = this.db.Employees.ToList();  
             List<EmployeeDet> EmployeeDetails = new List<EmployeeDet>();
             foreach(var obj in EmployeeList)
             {
